@@ -1,0 +1,148 @@
+#frame 
+  {
+      background: url(images/screen3.jpg) no-repeat;
+      width: 964px;
+      height: 257px;
+      position: absolute;
+      top: -3px;
+      left: -80px;
+      z-index: 0;
+      -webkit-border-radius: 4px;
+      -moz-border-radius: 4px;
+      border-radius: 4px;
+      pointer-events: none;
+      /* -moz-box-shadow:;
+      -webkit-box-shadow:; */
+      box-shadow: 0 0 5px #000, 0 0 6px #000;
+  }
+  #slides 
+  {
+      position: absolute;
+      top: 1px;
+      left: -74px;
+      z-index: 100;
+
+      width: 954px;
+      height: 247px;
+      -webkit-border-radius: 3px;
+      -moz-border-radius: 3px;
+      border-radius: 3px;
+  }
+  .slides_container 
+  {
+      width: 954px;
+      position: relative;
+      display: none;
+  }
+  .slides_container a 
+  {
+      width: 570px;
+      height: 270px;
+      display: block;
+  }
+
+  .slides_container a img 
+  {
+      display: block;
+  }
+  
+  #slides .next, #slides .prev {
+      position: absolute;
+      top: 129px;
+      left: -80px;
+      width: 48px;
+      height: 48px;
+      display: block;
+      z-index: 101;
+  }
+
+  #slides .next {
+      background-image: url(images/arrow-right.jpg);
+  }
+
+  #slides .next:hover {
+      background-image: url(images/arrow-right-hov.png);
+  }
+
+  #slides .prev {
+     background-image: url(images/arrow-left.png);
+  }
+
+  #slides .prev:hover {
+      background-image: url(images/arrow-left-hov.png);
+  }
+
+  #slides .next {
+      left: 826px;
+  }
+  .nav-pills>li+li 
+  {
+      margin-left: 200px;
+  }
+  .bg-light {
+     background-color: #f8f9fa !important;
+   }
+   
+  a.bg-light:focus, a.bg-light:hover {
+     background-color: #dae0e5 !important;
+   }
+   .img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+
+.carousel{
+    background: #F8FBF9;
+    /*margin-top: 20px;*/
+     
+}
+
+.carousel .item{
+    min-height: 20px; /* Prevent carousel from being distorted if for some reason image doesn't load */
+    width:10%;
+    
+}
+.carousel .item img{
+   margin: -274px 8px;/* Align slide image horizontally center */
+   
+}
+.bs-example{
+  margin: 20px;
+}
+
+@media screen and (max-width: 600px) 
+{
+  #fh5co-our-services
+  {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
+}
+
+@media (max-width: 767px)
+{
+    .navbar-fixed-top
+    {
+      position: relative;
+      top: auto;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 400px) 
+{
+  #my-content { display: block; }  /* show it on small screens */
+}
+
+@media screen and (min-width: 401px)
+{
+  #my-content { display: none; }   /* hide it elsewhere */
+}
+
+#img1:hover {
+  src:"images/schoolbus1.png";
+}
